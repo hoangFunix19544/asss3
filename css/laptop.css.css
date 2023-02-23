@@ -1,0 +1,295 @@
+@media (min-width: 1024px) {
+html {
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+}
+article {
+  position: relative;
+  top: -100px;
+  width: 100%;
+}
+body {
+  width: 100%;
+  position: relative;
+}
+.header {
+  width: 100%;
+}
+#dropdown{
+  display:none;
+}
+.banner {
+  width: 100%;
+  height: 600px;
+}
+.text-banner {
+  color: white;
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.lam-mo-banner {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  line-height: 22px;
+}
+.nav-item {
+  width: 10%;
+  margin: 0;
+  height: 60px;
+  text-align: center;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgb(95, 94, 94);
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+}
+.can-giua {
+  font-size: 17px;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+.box-thua {
+  height: 60px;
+  background-color: white;
+  width: 17.5%;
+}
+.ben-phai {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgb(95, 94, 94);
+  background-color: white;
+}
+.nvhoang {
+  width: 25%;
+}
+
+.hang1 {
+  display: flex;
+  flex-direction: row;
+}
+.hang1-item {
+  line-height: 35px;
+  width: 50%;
+  padding: 30px 50px 0px 50px;
+  height: 350px;
+  box-sizing: border-box;
+}
+.hang1-trai {
+  background-color: rgb(207, 204, 204);
+}
+.hang1-phai {
+  background-color: rgb(161, 159, 159);
+}
+
+.grid {
+  display: grid;
+  width: 80%;
+  margin: 35px auto;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  gap: 50px;
+  justify-content: center;
+}
+.grid-item {
+  border-color: rgb(143, 141, 141);
+  border-width: 2px;
+  border-style: solid;
+  padding: 50px;
+}
+.hientai {
+  margin-left: 10px;
+  width: 70px;
+  height: 20px;
+  background-color: rgb(51, 171, 226);
+  border-radius: 7px;
+  text-align: center;
+  color: white;
+}
+.tieude {
+  margin-bottom: 80px;
+  display: flex;
+  font-weight: lighter;
+  font-size: 36px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.icon {
+  font-size: 60px;
+  color: rgb(143, 141, 141);
+  float: right;
+  margin-top: 0px;
+}
+.bahang2cot {
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+}
+.ic {
+  color: rgb(51, 171, 226);
+  font-size: 30px;
+  border: 2px rgb(51, 171, 226) solid;
+  width: 60px;
+  height: 60px;
+  padding-top: 13px;
+
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+/*.cham-xanh {
+  background-color: rgb(150, 205, 231);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.met-vai-lon {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}*/
+.qq::marker {
+  color: rgb(150, 205, 231);
+  font-size: 30px;
+}
+.line-xanh {
+  margin-right: 15px;
+  width: 70px;
+  height: 5px;
+  background-color: rgb(51, 171, 226);
+}
+.line-trang {
+  width: 70px;
+  height: 5px;
+  background-color: rgb(218, 218, 218);
+  margin-right: 15px;
+}
+.chung-chi {
+  margin-left: 120px;
+  margin-right: 60px;
+  float: left;
+  width: 300px;
+}
+.clear-float {
+  clear: both;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.chungchi-giaithuong {
+  width: 95%;
+  background-color: rgb(233, 231, 231);
+  margin: 60px auto;
+  padding-top: 50px;
+  height: 400px;
+}
+.grid2 {
+  margin: 0px auto;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 40px;
+  justify-content: space-between;
+}
+.img {
+  margin: 0;
+  height: 300px;
+  width: 100%;
+}
+
+.table {font-family: sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  width: 100%;
+  border: rgb(179, 176, 176) 1px solid;
+  border-collapse: collapse;
+}
+tr {
+  padding: 0;
+  border: rgb(179, 176, 176) 1px solid;
+}
+td {
+  padding: 0;
+  border: rgb(179, 176, 176) 1px solid;
+}
+.hangthu2 {
+  height: 80px;
+}
+.deo-hieu {
+  margin: 0px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+.text2021 {
+  margin-left: 15px;
+  width: 50px;
+  background-color: rgb(51, 171, 226);
+  text-align: center;
+  border-radius: 15px;
+padding-top: 4px;
+
+}
+.icon-funix {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: top;
+  height: 50px;
+}
+.metthat {
+  margin: 0 10px 0 40px;
+  height: 26px;
+
+}
+.mophat {
+  float: left;
+  width: 110px;
+  margin-left: 15px;
+  position: relative;
+ 
+}
+.mta {
+  height: 90px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgb(209, 208, 208);
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.icon-footer {
+  color: rgb(64, 64, 136);
+  font-size: 35px;
+  margin-left: 50px;
+  margin-right: 15px;
+}
+.iconn {
+  color: rgb(5, 98, 141);
+}
+
+#tieu-de {
+  font-size: 20px; margin-bottom: 0px
+}
+.textfooter{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+}

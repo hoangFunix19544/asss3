@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment02</title>
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/laptop.css.css" />
+    <link rel="stylesheet" href="./css/mobile.css.css" />
+    <link rel="stylesheet" href="./css/tablet.css.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <style>
+#div1 {display:none}           
+#div2{display: block;}
+#button1{
+background-color: rgb(103, 103, 253);
+border-color: rgb(103, 103, 253); 
+color: aliceblue;
+border-radius: 15%;}
+#div3 {display:none;}
+#div4 {display:none;}
+#div5 {display:none;}
+#div6 {display:none;}
+#div7 {display:none;}
+#div8 {display:none;}
+.viewmore{display: none;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  background-color: rgb(161, 160, 160);
+  color: black;
+  margin-left: 30%;
+  text-align: center;
+padding-top: 5px;
+border-radius:0.5cm;}
+.chitiet{
+  margin-top: 150px;
+}
+.chitiet{margin-left: 40%;
+font-size: 13px;
+ margin-left: 40%;
+
+ 
+
+}
+  </style>
+  <body>
+<script src="./js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<header class="header">
+  <div id="dropdown" class="dropdown">
+    <a id="dropdown1" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    NGUYỄN VĂN HOÀNG
+    </a>
+  
+    <ul id="dropdown-menu1" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a id="dropitem" class="dropdown-item" href="#lession1"
+        ><i class="icon-user"></i> THÔNG TIN</a></li>
+      <li><a id="dropitem" class="dropdown-item" href="#lession2"><i class="icon-doc-text-inv"></i> LÝ LỊCH</a>
+      <li><a id="dropitem" class="dropdown-item" href="#lession3"><i class="icon-mail-alt"></i> CHỨNG CHỈ</a>
+    <li> <a id="dropitem" class='dropdown-item' href="#lession4"
+      ><i class="icon-star-1"></i> DỰ ÁN</a></li>
+      </ul>
+  </div>
+      <img src="./images/banner.jpg" alt="banner" class="banner" />
+      <div class="lam-mo-banner"></div>
+      <div class="text-banner">
+        <h1 class="text-banner1"  style="margin: 0">Nguyễn Văn Hoàng</h1>
+        <p  style="margin: 5 0 0 0">Full Stack Developer</p>
+      </div>
+    </header>
+    <article>
+      <div id="nav">
+      <nav class="nav">
+        <div class="box-thua"></div>
+        <a class="nav-item can-giua" href="#lession1"
+          ><i class="icon-user"></i> THÔNG TIN</a
+        >
+        <a class="nav-item can-giua" href="#lession2"
+          ><i class="icon-doc-text-inv"></i> LÝ LỊCH</a
+        >
+        <div  class="nav-item nvhoang">
+          <h1 id="display-none" style="margin: 7px 0 0 0">Nguyễn Văn Hoàng</h1>
+          <p id="display-none" style="margin: 3px 0 0 0">Full Stack Developer</p>
+        </div>
+        <a class="nav-item can-giua" href="#lession3"
+          ><i class="icon-mail-alt"></i> CHỨNG CHỈ</a
+        >
+        <a class="nav-item can-giua" href="#lession4"
+          ><i class="icon-star-1"></i> DỰ ÁN</a>
+        <div class="box-thua ben-phai"></div>
+      </nav>
+    </div>
+
+      <div id="lession1" class="hang1">
+        <div class="hang1-item hang1-trai">
+          <h2>Mục tiêu nghề nghiệp</h2>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình Doanh nghiệp của FUNIX.
+            Em mong muốn mình sẽ được làm việc với vị trí Fullstack Developer,
+            có thể vận dụng những kiến thức đã được trau dồi và không ngừng học
+            hỏi để phát triển bản thân, cũng như hoàn thành tốt công việc được
+            giao.
+          </p>
+       
+        </div>
+        <div class="hang1-item hang1-phai">
+          <h2><strong>Thông tin cá nhân</strong></h2>
+          <div id="div2">
+            <input size="60" class="input" type="text" value="Nhập email của bạn">
+            <p>Hãy nhập email để xác thực</p>
+            <button onclick="myfunction ()" id="button1">Sumbit</button>
+          </div>
+        <div id="div1">
+          <p style="margin: 0"><strong>Giới tính:</strong> Nam</p>
+          <p style="margin: 0"><strong>Ngày sinh:</strong> 17/01/1997</p>
+          <p style="margin: 0"><strong>Điện thoại:</strong> 0325642404</p>
+          <p style="margin: 0">
+            <strong>Email:</strong> hoanganhhanh222@gmail.com
+          </p>
+          <p style="margin: 0">
+            <strong>Địa chỉ:</strong> Cao Minh, Vĩnh Bảo, Hải Phòng
+          </p>
+          <div>
+          <a href="https://twitter.com/"> <i class="icon-twitter iconn"></i></a>
+          <a href="https://www.facebook.com/"
+            ><i class="icon-facebook iconn"></i
+          ></a>
+          <a href="mailto:hoanganhhanh222@gmail.com"
+            ><i class="icon-gplus iconn"></i
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="icon-linkedin iconn"></i
+          ></a>
+        </div>
+        
+        </div>
+        </div>
+      </div>
+      <div id="lession2" class="grid">
+        <div onmouseover="hienviewmore1()" onmouseout="anviewmore1()" class="grid-item item1">
+          <h1 class="tieude">Kinh nghiệm <i class="ic-toolbox icon"></i></h1>
+       
+          <div onclick="hiendiv3()" class="viewmore" id="viewmore1">
+View more
+          </div>
+          <div id="div3">
+          <li class="qq">
+            <strong style="font-size: 20px"
+              >Full Stack Developer - Công ty QQ</strong
+            >
+          </li>
+          <div style="margin-left: 40px">
+            <div style="display: flex; flex-direction: row">
+              <p>05/2022 -</p>
+              <p class="hientai"><em>Hiện tại</em></p>
+            </div>
+
+            <p>
+              - Xây dựng, phát triển website dựa trên thiết kế và yêu cầu đã có.
+            </p>
+
+            <p>
+              - Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL.
+            </p>
+            <p>- Sử dụng ngôn ngữ Sever-side để xây dựng các Web service</p>
+          </div>
+        </div>
+      </div>
+        <div onmouseover="hienviewmore2()" onmouseout="anviewmore2()" class="grid-item item2">
+          <h1  class="tieude">Kỹ năng <i class="ic-tools-2 icon"></i></h1>
+     
+          <div onclick="hiendiv4()" class="viewmore" id="viewmore2">
+            View more
+          </div>
+          <div id="div4">
+          <p>HTML,CSS: Fundameental</p>
+          <div style="display: flex; flex-direction: row">
+            <div class="line-xanh"></div>
+            <div class="line-trang"></div>
+            <div class="line-trang"></div>
+          </div>
+
+          <p style="margin-top: 60px">Javascript: Fundameental</p>
+          <div style="display: flex; flex-direction: row">
+            <div class="line-xanh"></div>
+            <div class="line-trang"></div>
+            <div class="line-trang"></div>
+          </div>
+        </div>
+      </div>
+        <div onmouseover="hienviewmore3()" onmouseout="anviewmore3()" class="grid-item item3">
+          <h1 class="tieude">Ngôn ngữ<i class="ic-mic icon"></i></h1>
+
+          <div onclick="hiendiv5()"  class="viewmore" id="viewmore3">
+            <p>View more</p>
+          </div>
+          <div id="div5">
+          <p>Tiếng Anh-IELTS 6.0</p>
+          <div style="display: flex; flex-direction: row">
+            <div class="line-xanh"></div>
+            <div class="line-xanh"></div>
+            <div class="line-trang"></div>
+          </div>
+        </div>
+      </div>
+        <div onmouseover="hienviewmore4()" onmouseout="anviewmore4()" class="grid-item item4">
+          <h1 class="tieude">Hoạt động<i class="ic-toolbox icon"></i></h1>
+     
+          <div onclick="hiendiv6()"  class="viewmore" id="viewmore4">
+            <p>View more</p>
+                      </div>
+          <div id="div6">
+          <li class="qq">
+            <strong style="font-size: 20px">Câu lạc bộ thể thao điện tử</strong>
+          </li>
+          <div style="margin-left: 40px">
+            <em>10/2015-1/2017</em>
+            <p style="margin-top: 20px">- Thành viên</p>
+          </div>
+        </div>
+      </div>
+        <div onmouseover="hienviewmore5()" onmouseout="anviewmore5()" class="grid-item item5">
+          <h1 class="tieude">Học vấn<i class="ic-pencil icon"></i></h1>
+ 
+          <div onclick="hiendiv7()"  class="viewmore" id="viewmore5">
+            <p>View more</p>
+                      </div>
+          <div id="div7">
+          <li class="qq"><strong style="font-size: 20px">FUNIX</strong></li>
+          <div style="margin-left: 40px">
+            <em>9/2022-3/2023</em>
+            <p>- Tốt nghiệp chứng doanh nghiệp nhành fullstack</p>
+            <p>GPA: 4/10</p>
+          </div>
+        </div>
+      </div>
+        <div onmouseover="hienviewmore6()" onmouseout="anviewmore6()"
+          class="grid-item item6"
+          style="padding-left: 0px; padding-right: 0px"
+        >
+          <h1 class="tieude" style="margin-left: 50px">
+            Sở thích
+            <i style="margin-right: 50px" class="ic-telescope icon"></i>
+          </h1>
+          
+          <div onclick="hiendiv8()" class="viewmore" id="viewmore6">
+            <p>View more</p>
+                      </div>
+          <div id="div8">
+          <div class="bahang2cot">
+            <i class="ic-megaphone ic" style="padding-left: 7px"></i>
+            <i class="ic-strategy ic" style="padding-left: 17px"></i>
+            <i class="ic-hotairballoon ic" style="padding-left: 15px"></i>
+            <i class="ic-basket ic" style="padding-left: 7px"></i>
+            <p>Âm nhạc</p>
+            <p>Chơi game</p>
+            <p>Du lịch</p>
+            <p>Nấu ăn</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="lession3" class="chungchi-giaithuong">
+        <div>
+          <h1 class="tieude" style="margin-left: 120px">
+            Chứng chỉ - Giải thưởng
+          </h1>
+        </div>
+        <div class="grid-1">
+          <div>
+            <img class="chung-chi" src="./images/Cert_WEB.png" />
+            <div class="text1">
+              <h2 class="tieude" id="tieu-de">
+                CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX
+              </h2>
+              <p>- Chứng chỉ thuộc chương trình CCDN</p>
+              <p>- GPA: 4.0</p>
+            </div>
+          </div>
+          <div>
+            <img
+              style="border-left: 1px sandybrown solid; padding-left: 30px"
+              class="chung-chi"
+              src="./images/Cert_PRF.png"/>
+            <div class="text1 text2">
+              <h2 class="tieude" id="tieu-de" >
+                CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX
+              </h2>
+              <p>- Chứng chỉ thuộc chương trình CCDN</p>
+              <p>- GPA: 4.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 id="lession4" class="tieude" style="margin-left: 240px">Dự án</h1>
+
+      <div class="grid2">
+           <table class="table">
+          <tr style="height: 290px">
+            <td>
+              <img class="project-1 img" src="./images/project_1.png" />
+            </td>
+          </tr>
+          <tr>
+            <td class="hangthu2">
+              <div class="tieude deo-hieu" style="font-size: 20px">
+                CV CÁ NHÂN
+              </div>
+            </td>
+          </tr>
+          <tr class="hangth3">
+            <td>
+              <div class="icon-funix">
+                <p class="text2021">2021</p>
+                <i class="icon-user-1 metthat"></i>
+                <p>FUNIX</p>
+                <i class="icon-lamp metthat"></i>
+                <p>Developer</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat mta">Mô tả</p>
+                <p>
+                  Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                  như kỹ năng nghề nghiệp.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat">Nhiệm vụ</p>
+                <p>- Phát triên code-Review code- Tối ưu code- Xử lý lỗi</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat">Công nghệ</p>
+                <p>HTLM, CSS</p>
+                <a class="chitiet" href="./preject.html">Chi tiết</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table class="table">
+          <tr style="height: 290px">
+            <td>
+              <img class="project-2 img" src="./images/project_2.png" />
+            </td>
+          </tr>
+          <tr>
+            <td class="hangthu2">
+              <div
+                class="tieude deo-hieu"
+                style="font-size: 20px; margin-bottom: 0px"
+              >
+                TRANG WEB QUẢN LÝ THÚ CƯNG
+              </div>
+            </td>
+          </tr>
+          <tr class="hangth3">
+            <td>
+              <div class="icon-funix">
+                <p class="text2021">2021</p>
+                <i class="icon-user-1 metthat"></i>
+                <p>FUNIX</p>
+                <i class="icon-lamp metthat"></i>
+                <p>Developer</p>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div>
+                <p class="mophat mta">Mô tả</p>
+                <p>
+                  Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                  nặng. giống, tình trạng tiêm chủng,... Bao gồm các chức năng
+                  thêm/sửa/xóa.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat">Nhiệm vụ</p>
+                <p>- Phát triên code-Review code- Tối ưu code- Xử lý lỗi</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat">Công nghệ</p>
+                <p>HTLM, CSS, Javasript</p>
+                <a class="chitiet" href="./preject.html">Chi tiết</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table class="table">
+          <tr style="height: 290px">
+            <td>
+              <img class="project-3 img" src="./images/project_3.png" />
+            </td>
+          </tr>
+          <tr>
+            <td class="hangthu2">
+              <div class="tieude deo-hieu" style="font-size: 20px">
+                TRANG WEB XEM TIN TỨC
+              </div>
+            </td>
+          </tr>
+          <tr class="hangth3">
+            <td>
+              <div class="icon-funix">
+                <p class="text2021">2021</p>
+                <i class="icon-user-1 metthat"></i>
+                <p>FUNIX</p>
+                <i class="icon-lamp metthat"></i>
+                <p>Developer</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat mta">Mô tả</p>
+                <p>
+                  Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có
+                  thể tìm kiếm các tin tức dựa theo các từ khóa.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat">Nhiệm vụ</p>
+                <p>- Phát triên code-Review code- Tối ưu code- Xử lý lỗi</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <p class="mophat">Công nghệ</p>
+                <p>HTLM, CSS, Javasript</p>
+                <a class="chitiet" href="./preject.html">Chi tiết</a>
+             
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </article>
+    <footer>
+      <a href="https://www.facebook.com/"
+        ><i class="icon-facebook-circled icon-footer"></i>
+      </a>
+      <p class="textfooter">Facebook</p>
+
+      <a href="https://www.linkedin.com/"
+        ><i class="icon-linkedin-circled icon-footer"></i>
+      </a>
+      <p  class="textfooter">Linkedin</p>
+      <a href="https://github.com/"
+        ><i class="icon-github-circled icon-footer"></i>
+      </a>
+      <p  class="textfooter">Github</p>
+    </footer>
+  </body>
+  <script>
+    var inputvalue ;
+function myfunction () {inputvalue = document.querySelector(".input").value ;
+    const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if(regex.test(inputvalue)) {
+        document.getElementById("div2").style.display = "none";
+        document.getElementById("div1").style.display = "block";}
+    else {return alert ("Email nhập không đúng vui lòng nhập lại")}}
+function hienviewmore1(){return  document.getElementById("viewmore1").style.display="block";}
+function anviewmore1(){ if(document.getElementById("viewmore1").innerText=="View more")
+  {return  document.getElementById("viewmore1").style.display="none";}}
+function hienviewmore2(){return  document.getElementById("viewmore2").style.display="block";}
+function anviewmore2(){ if(document.getElementById("viewmore2").innerText=="View more")
+  {return  document.getElementById("viewmore2").style.display="none";}}
+function hienviewmore3(){return  document.getElementById("viewmore3").style.display="block";}
+function anviewmore3(){ if(document.getElementById("viewmore3").innerText=="View more")
+  {return  document.getElementById("viewmore3").style.display="none";}}
+function hienviewmore4(){return  document.getElementById("viewmore4").style.display="block";}
+function anviewmore4(){ if(document.getElementById("viewmore4").innerText=="View more")
+  {return  document.getElementById("viewmore4").style.display="none";}}
+function hienviewmore5(){return  document.getElementById("viewmore5").style.display="block";}
+function anviewmore5(){ if(document.getElementById("viewmore5").innerText=="View more")
+  {return  document.getElementById("viewmore5").style.display="none";}}
+function hienviewmore6(){return  document.getElementById("viewmore6").style.display="block";}
+function anviewmore6(){ if(document.getElementById("viewmore6").innerText=="View more")
+  {return  document.getElementById("viewmore6").style.display="none";}}
+</script>
+</html>

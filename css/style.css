@@ -1,0 +1,291 @@
+/* Desktop css */
+@media (min-width:1024px){
+body {border: 10px rgb(138, 135, 135) solid;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-gap: 0px;
+  }
+.tieude{margin-left: 70px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+ border-bottom: 5px solid rgb(143, 141, 141);
+ display: block;
+ width: 80%;
+}
+.grid-item{
+    border: 10px rgb(138, 135, 135) solid;
+}
+.Goal{box-sizing: border-box;
+    height: 60%;
+    
+}
+.Scopes{box-sizing: border-box;
+    height: 40%;
+}
+.team{box-sizing: border-box;
+    height: 60%;
+   
+}
+.Primary{box-sizing: border-box;
+    height: 40%;
+   
+}
+.item{box-sizing: border-box;
+    height: 100%;
+}
+#grid50-50{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.grid20-80{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.grid10-90{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+#iconpen{margin-top: 10px ;
+    margin-left: 20%;
+    font-size: 30px;}
+.goalll{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    }
+    .gridgoal{
+        margin-top:40px;
+    }
+    .textcontent{
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+.fa-user{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fa-circle-question{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.mumber{
+ font-size: 40px;
+ margin-left: 25px;
+ margin-top: 20px;
+ background-color: rgb(168, 166, 166);
+text-align: center;
+justify-content: center;
+height: 50px;
+width: 50px;
+margin-left: 10px;
+border-radius: 100%;
+}
+.text1{
+  margin-left: 20px;
+}
+.text2{ font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+}
+/* Table ccs */
+@media (max-width:1024px) and (min-width:740px){
+    body {border: 10px rgb(138, 135, 135) solid;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0px;}
+        .tieude{margin-left: 70px;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+          }
+          .tieude{margin-left: 70px;
+            margin-top: 30px;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+         border-bottom: 5px solid rgb(143, 141, 141);
+         display: block;
+         width: 80%;
+        }
+        .grid-item{
+            border: 10px rgb(138, 135, 135) solid;
+        }
+        .Goal{box-sizing: border-box;
+   
+            
+        }
+        .Scopes{box-sizing: border-box;
+  
+        }
+        .team{box-sizing: border-box;
+
+           
+        }
+        .Primary{box-sizing: border-box;
+    
+           
+        }
+        .item{box-sizing: border-box;
+      
+        }
+        #grid50-50{
+       
+        }
+        .grid20-80{
+            display: grid;
+            grid-template-columns: 20% 80%;
+        }
+        .grid10-90{
+            display: grid;
+            grid-template-columns: 20% 80%;
+        }
+        #iconpen{margin-top: 10px ;
+            margin-left: 20%;
+            font-size: 30px;}
+        .goalll{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            }
+            .gridgoal{
+                margin-top:40px;
+            }
+            .textcontent{
+                margin-top: 16px;
+            }
+        .fa-user{
+            font-size: 30px;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        .fa-circle-question{
+            font-size: 40px;
+            margin-left: 30%;
+            margin-top: 20px;
+        }
+        .mumber{
+         font-size: 40px;
+         margin-left: 25px;
+         margin-top: 20px;
+         background-color: rgb(168, 166, 166);
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        margin-left:  30%;
+        border-radius: 100%;
+        }
+        .text1{
+          margin-left: 20px;
+        }
+        .text2{ font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
+        .qq{
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+}
+@media (max-width:740px){html{font-size: 20px;}
+    body {border: 5px rgb(138, 135, 135) solid;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0px;}
+       
+            .tieude{margin-left: 35px;
+                margin-top: 10px;
+                font-size: 35px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+             border-bottom: 3px solid rgb(56, 11, 218);
+             display: block;
+             width: 80%;
+            }
+            .grid-item{
+                border: 5px rgb(138, 135, 135) solid;
+            }
+            .Goal{box-sizing: border-box;
+       
+                
+            }
+            .Scopes{box-sizing: border-box;
+      
+            }
+            .team{box-sizing: border-box;
+    
+               
+            }
+            .Primary{box-sizing: border-box;
+        
+               
+            }
+            .item{box-sizing: border-box;
+          
+            }
+         
+            #iconpen{margin-top: 10px ;
+                margin-left: 20%;
+                display: none;
+                font-size: 30px;}
+            .goalll{
+                font-size: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                }
+                .gridgoal{
+                    margin:20px 0 0 30px;
+                }
+                .textcontent{
+                    margin-top: 16px;
+                }
+            .fa-user{
+                font-size: 30px;
+                margin-left: 45%;
+                margin-top: 20px;
+            }
+            .fa-circle-question{
+                font-size: 40px;
+                margin-left: 48%;
+                margin-top: 20px;
+            }
+            .mumber{
+             font-size: 40px;
+             margin-left: 0px;
+             margin-top: 20px;
+             background-color: rgb(168, 166, 166);
+            text-align: center;
+            justify-content: center;
+            height: 50px;
+            width: 50px;
+            margin-left:  30%;
+            border-radius: 100%;
+            }
+            .text1{
+             
+            }
+            .text2{ font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+            }
+            .qq{display: flex;
+             text-align: center;
+            }
+.member{
+    margin-left: 40px;
+}
+
+.textcontent{
+    margin-left: 30px;
+}
+.number{
+    margin-left: 40px;
+}
+.borderbot{
+    border-bottom: 1px solid black;
+}
+        }
